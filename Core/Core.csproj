@@ -197,6 +197,11 @@
     <Compile Include="Utilities\Results\Result.cs" />
     <Compile Include="Utilities\Results\SuccessDataResult.cs" />
     <Compile Include="Utilities\Results\SuccessResult.cs" />
+    <Compile Include="Utilities\Security\Encryption\SecurityKeyHelper.cs" />
+    <Compile Include="Utilities\Security\Encryption\SigningCredentialsHelper.cs" />
+    <Compile Include="Utilities\Security\Hashing\HashingHelper.cs" />
+    <Compile Include="Utilities\Security\JWT\AccesToken.cs" />
+    <Compile Include="Utilities\Security\JWT\ITokenHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
